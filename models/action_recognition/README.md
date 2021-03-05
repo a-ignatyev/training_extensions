@@ -1,4 +1,4 @@
-# Action Recognition 2
+# Action Recognition
 
 ## Pre-trained models
 
