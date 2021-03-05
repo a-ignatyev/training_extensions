@@ -1,5 +1,5 @@
 name: s3d-rgb-mobilenet-v3-stream-msasl
-domain: Action Recognition 2
+domain: Action Recognition
 problem: Gesture Recognition
 framework: OTEAction v0.6.0
 summary: ASL Recognition based on S3D-MobileNet-V3.

@@ -1,4 +1,4 @@
-arg_parser: DefaultArgParser
+arg_parser: CustomClassesArgParser
 arg_converter_map: MMActionArgConverterMap
 trainer: MMActionTrainer
 evaluator: MMActionEvaluator
