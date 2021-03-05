@@ -59,13 +59,13 @@ domains:
     subtitle: Detecting vehicles in digital images
     cvat_schema: '[{"name": "vehicle", "attributes":[]}]'
 - title: Action Recognition
- problems:
- - title: Gesture Recognition
-   description:  >-
-     Gesture recognition is a computer technology being used in a variety of applications
-     that carry outs video stream classification.
-   subtitle: Recognizing gestures in live video streams
-   cvat_schema: '[]'
+  problems:
+  - title: Gesture Recognition
+    description:  >-
+      Gesture recognition is a computer technology being used in a variety of applications
+      that carry outs video stream classification.
+    subtitle: Recognizing gestures in live video streams
+    cvat_schema: '[]'
 - title: Instance Segmentation
   problems:
   - title: COCO Instance Segmentation

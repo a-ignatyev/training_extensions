@@ -20,7 +20,7 @@ from ote.utils.misc import run_through_shell
 
 def create_action_recognition_export_test_case(**kwargs):
     expected_outputs_dir = os.path.join(os.path.dirname(__file__), '..', 'expected_outputs')
-    ExportTestCase = create_export_test_case('action_recognition_2',
+    ExportTestCase = create_export_test_case('action_recognition',
                                              **kwargs,
                                              metric_keys=['accuracy'],
                                              expected_outputs_dir=expected_outputs_dir)
@@ -29,7 +29,7 @@ def create_action_recognition_export_test_case(**kwargs):
 
 def create_action_recognition_test_case(**kwargs):
     expected_outputs_dir = os.path.join(os.path.dirname(__file__), '..', 'expected_outputs')
-    TrainTestCase = create_test_case('action_recognition_2',
+    TrainTestCase = create_test_case('action_recognition',
                                      **kwargs,
                                      metric_keys=['accuracy'],
                                      expected_outputs_dir=expected_outputs_dir,

@@ -22,10 +22,10 @@ Target datasets:
 
 ## Training pipeline
 
-### 1. Change a directory in your terminal to action_recognition_2.
+### 1. Change a directory in your terminal to action_recognition.
 
 ```bash
-cd models/action_recognition_2
+cd models/action_recognition
 ```
 If You have not created virtual environment yet:
 ```bash
